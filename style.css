@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(img/background.jpg);
+  background-size: cover;
+}
+
+.container{
+  width: 860px;
+  height: 570px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 15px;
+  position: relative;
+}
+
+.content{
+  width: 700px;
+  position: absolute;
+  margin: 0 auto; left: 0; right: 0;
+  top: 48px;
+}
+
+.box-logo {
+  text-align: center;
+}
+
+.box-logo img {
+  width: 166px;
+}
+
+.box-titolo > h1{
+  color: #00EE00;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+nav{
+  background: #00EE00;
+  line-height: 30px;
+  text-align: center;
+}
+
+nav > input{
+  border: 1px solid grey;
+  font-size: 10px;
+  background-color: #DCDCDC;
+}
+
+ul{
+  list-style: none;
+  margin-left: 0;
+  padding: 0;
+  margin-top: 15px;
+}
+
+li{
+  margin-top: 15px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nome-monopattino input{
+  transform: scale(0.7);
+  vertical-align: middle;
+}
+
+.nome-monopattino > h2{
+  font-size: 15px;
+  display: inline-block;
+}
+
+.localizzazione-monopattino, .info-carica{
+  font-size: 11px;
+}
+
+.freccia:after{
+  content: '\21A6'
+}
+
+.box-livello-carica{
+  width: 420px;
+  height: 20px;
+}
+
+.livello-orange, .livello-green, .livello-red{
+  height: 100%;
+  border-radius: 5px;
+}
+
+.livello-orange{
+  width: 59%;
+  background: #FBA95A;
+}
+
+.livello-green{
+  width: 100%;
+  background: #1ECA1E;
+}
+
+.livello-red{
+  width: 25%;
+  background: #C63A3AE8;
+}
